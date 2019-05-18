@@ -1,0 +1,10 @@
+<properties>
+		<property name="com.acme.persistence.sql-logging"	value="on" />
+		<property name="javax.persistence.jdbc.url"			value="jdbc:oracle:thin:@localhost:1521:xe" />
+		<property name="javax.persistence.jdbc.user"		value="system" />
+		<property name="javax.persistence.jdbc.password"	value="India123" />
+		<property name="javax.persistence.jdbc.driver" 		value="oracle.jdbc.OracleDriver" />
+		<property name="eclipselink.logging.level" 			value="FINE" />
+		<property name="eclipselink.ddl-generation" 		value="create-tables" />
+		<!-- <property name="eclipselink.ddl-generation" value="none" /> -->
+	</properties>
